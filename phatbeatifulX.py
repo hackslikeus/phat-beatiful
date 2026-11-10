@@ -30,7 +30,7 @@ button3.direction = digitalio.Direction.INPUT
 button3.pull = digitalio.Pull.UP
 
 #Fourth Button or Volume UP
-button4 = digitalio.DigitalInOut(board.16)
+button4 = digitalio.DigitalInOut(board.D16)
 button4.direction = digitalio.Direction.INPUT
 button4.pull = digitalio.Pull.UP
 
@@ -38,11 +38,6 @@ button4.pull = digitalio.Pull.UP
 button5 = digitalio.DigitalInOut(board.D26)
 button5.direction = digitalio.Direction.INPUT
 button5.pull = digitalio.Pull.UP
-
-#A poor mans pause button in case of awful sound
-button6 = digitalio.DigitalInOut(board.D27)
-button6.direction = digitalio.Direction.INPUT
-button6.pull = digitalio.Pull.UP
 
 #A shutdown button
 button = digitalio.DigitalInOut(board.D3)
@@ -80,10 +75,6 @@ while True:
         print("volume down pressed")
         os.system('mpg123 -f 7000 http://ice1.somafm.com/groovesalad-256-mp3 &')
         print ("playing groove salad")
-
-     if not button6.value:  #stop playing music
-        subprocess.call(['killall', 'mpg123'])
-        print("unnecessary - press button to continue")
         
      if not button7.value:  #put the pi to sleep
         subprocess.call(['shutdown', '-h', 'now'], shell=False)  
