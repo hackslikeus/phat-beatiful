@@ -1,0 +1,20 @@
+#EXTM3U
+
+#EXTINF:-1,Gorilla Radio
+http://strm112.1.fm/gorillafm_mobile_mp3
+
+#EXTINF:-1,Delta Radio
+http://streams.deltaradio.de/delta-indie/mp3-192/vtuner/
+
+#EXTINF:-1,Bulldog Radio
+http://computronpc.net:8000/Bulldog933
+
+#EXTINF:-1,Radio Paradise Mello
+http://stream.radioparadise.com/mellow-flacm 
+
+#EXTINF:-1,Radio Paradise Main
+http://stream.radioparadise.com/flacm 
+
+#EXTINF:-1,Chilltrax
+http://server1.chilltrax.com:9000/
+
