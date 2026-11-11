@@ -176,7 +176,7 @@ def index():
 @app.route("/control/<action>", methods=["POST"])
 def control(action):
   cmd = []
-  if action == "previous":
+  if action == "prev":
     cmd = ["mpc", "previous"]
   elif action == "next":
     cmd = ["mpc", "next"]
