@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MPC Web Controls</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; padding-top: 40px; }
+        .buttons { display: flex; gap: 10px; justify-content: center; margin-top: 20px; }
+        button {
+            padding: 12px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 6px;
+            background: #4CAF50;
+            color: white;
+        }
+        button:hover { background: #45a049; }
+        .status { margin-top: 20px; font-size: 14px; color: #555; }
+    </style>
+</head>
+<body>
+    <h1>MPC Controls</h1>
+
+    <form method="POST">
+        <div class="buttons">
+            <button type="submit" name="action" value="rewind">⏪ Rewind</button>
+            <button type="submit" name="action" value="play_pause">▶️ / ⏸ Play/Pause</button>
+            <button type="submit" name="action" value="fast_forward">⏩ Fast Forward</button>
+            <button type="submit" name="action" value="volume_down">🔉 Volume Down</button>
+            <button type="submit" name="action" value="volume_up">🔊 Volume Up</button>
+        </div>
+    </form>
+
+    {% if status %}
+    <div class="status">
+        <strong>Status:</strong> {{ status }}
+    </div>
+    {% endif %}
+</body>
+</html>   
