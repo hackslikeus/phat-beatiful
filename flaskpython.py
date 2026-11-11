@@ -14,13 +14,13 @@ def index():
         action = request.form.get("action")
 
         if action == "fast_forward":
-            run_mpc("seek", "+10%")
+            run_mpc("next")
         elif action == "rewind":
-            run_mpc("seek", "-10%")
+            run_mpc("prev")
         elif action == "volume_up":
-            run_mpc("volume", "+5")
+            run_mpc("volume", "+10")
         elif action == "volume_down":
-            run_mpc("volume", "-5")
+            run_mpc("volume", "-10")
         elif action == "play_pause":
             run_mpc("toggle")
 
