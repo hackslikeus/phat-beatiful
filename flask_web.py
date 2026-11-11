@@ -187,9 +187,9 @@ def control(action):
   elif action == "vol_down":
     cmd = ["mpc", "volume", "-10"]
   elif action == "shutdown":
-    cmd = ["sudo", "shutdown", "-h", "now"]
+    cmd = ['sudo', 'shutdown', '-h', 'now']
   elif action == "reboot":
-    cmd = ["sudo", "reboot", "now"]
+    cmd = ['sudo', 'reboot', 'now']
 
   if cmd:
     try:
@@ -214,7 +214,7 @@ if __name__ == "__main__":
   # Load the playlist when the script starts
   initialize_mpd()
 
-  # Start Flask wrapped in Tornado WSGI container
+  # Start Flask wrapped in Tornado WSGI container use port 5000 for testing 8080 otherwise
   http_server = HTTPServer(WSGIContainer(app))
   http_server.listen(5000)
   print("Tornado server started. Access via http://<dietpi-ip>:5000")
