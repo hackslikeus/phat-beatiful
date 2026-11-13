@@ -11,7 +11,7 @@ HTML_PAGE = """
 <!DOCTYPE html>
 <html>
 <head>
-    <title>DietPi MPD Remote</title>
+    <title>PhatBeat MPD Remote</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         body { 
@@ -92,13 +92,13 @@ HTML_PAGE = """
     </style>
 </head>
 <body>
-    <h1>DietPi MPD Web Control</h1>
+    <h1>PhatBeat MPD Web Control</h1>
     <p>Loaded Playlist: <b>radio.m3u</b></p>
     
     <!-- Grouped Playback Controls -->
     <div class="btn-group">
         <form action="/control/previous" method="post" style="margin:0;">
-            <button type="submit" title="Previous">⏮ Previous</button>
+            <button type="submit" title="Previous">⏪ Previous</button>
         </form>
         <form action="/control/toggle" method="post" style="margin:0;">
             <button type="submit" class="action-btn" title="Play / Pause">⏯ Play / Pause</button>
