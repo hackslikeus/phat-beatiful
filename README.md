@@ -1,5 +1,5 @@
 # phat-beatiful
-Don't let the name fool you - a last ditch, bare bones effort using python code to make use of a Pimoroni Phatbeat,\ ignoring the led's completely and hijacking the buttons to 
+Don't let the name fool you - a last ditch, bare bones effort using python code to make use of a Pimoroni Phatbeat,<br> ignoring the led's completely and hijacking the buttons to 
 navigate an existing playlist consisting of 6 internet radio stations before everything ends in the trash.\
 #Pre-requisites:#\ Install Dietpi OS or Raspbian lite OS, MPD, MPC with a working .conf, GPIO libraries, Python and Utilities, Alsa too. \ If using the web interface, webserver such as nginx or lightppd is required.\
 To use Flask web page, you need to install Flask with Pip in a virtual environment, along with Tornado, Sqlalchemy and gpizero.  Barebones web page is included in flask_web.py script.\
