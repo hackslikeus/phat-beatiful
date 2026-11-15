@@ -1,6 +1,7 @@
 # phat-beatiful
 Don't let the name fool you - a last ditch, bare bones effort using python code to make use of a Pimoroni Phatbeat,<br> ignoring the led's completely and hijacking the buttons to 
-navigate an existing playlist consisting of 6 internet radio stations before everything ends in the trash.\
+navigate an existing playlist consisting of 6 internet radio stations before everything ends in the trash.\ <br>
+For Best Results - use strictly on DietPi OS to avoid long bootups and resource conflicts.  Pi OS is ok for minimal barebones barebuttons.py and flask_web.py only though.
 **Pre-requisites:** <br> Install Dietpi OS or Raspbian lite OS, MPD, MPC with a working .conf, GPIO libraries, Python and Utilities, Alsa too. <br> 
 Optional:  RPIMonitor, Squeezelite and an MPD Client. <br>
 If using the web interface, webserver such as nginx or lightppd is required. <br> To use Flask web page, you need to install Flask with Pip in a virtual environment, along with Tornado, Sqlalchemy and gpizero. <br> Barebones web page is included in flask_web.py script. <br>
