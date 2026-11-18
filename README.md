@@ -1,7 +1,7 @@
 # phat-beatiful
 Don't let the name fool you - a last ditch, bare bones effort using python code to make use of a Pimoroni Phatbeat,<br> ignoring the led's completely and hijacking the buttons to 
 navigate an existing playlist consisting of 6 internet radio stations before everything ends in the trash. <br>
-[< alt="phat-beat-pimoroni (1)" img src="https://github.com/user-attachments/assets/211ef098-4934-4af7-b4a4-a250ce8acfed"] />
+<img src="https://github.com/user-attachments/assets/211ef098-4934-4af7-b4a4-a250ce8acfed" width="30%"> <br>
 For Best Results - use strictly on **DietPi OS** to avoid long bootups and resource conflicts.  Pi OS is ok for minimal barebones barebuttons.py and flask_web.py only though. <br>
 **Pre-requisites:** <br> Install Dietpi OS or Raspbian lite OS, MPD(installs Alsa), MPC, with a working mpd.conf, GPIO libraries, Python and Utilities, <br> 
 Optional:  RPIMonitor, Squeezelite and an MPD Client. <br>
