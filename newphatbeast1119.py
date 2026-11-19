@@ -60,8 +60,8 @@ HTML_PAGE = """
 <!-- Header -->
 <header class="w3-container w3-theme w3-padding" id="myHeader">
   <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i> 
-  <div class="w3-center"><>
-    <h4>font face="Bungee Shade">PHATBEAsT</font</h4>
+  <div class="w3-center">
+    <h4><font face="Bungee Shade">PHATBEAsT</font</h4>
     <h6 class="w3-xxxlarge w3-animate-bottom">A PHATBEAST PLAYLIST PLAYER</h6>
       <div class="w3-padding-32">
       <div class="w3-row w3-border">
