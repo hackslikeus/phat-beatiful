@@ -61,8 +61,8 @@ HTML_PAGE = """
 <header class="w3-container w3-theme w3-padding" id="myHeader">
   <i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i> 
   <div class="w3-center">
-    <h2><font face="Bungee Shade">PHATBEAsT</font></h2>
-    <h6 class="w3-large w3-animate-bottom">A PHATBEAST PLAYLIST PLAYER</h6>
+    <h1 class="w3-xlarge w3-animate-top"><font face="Bungee Shade">PHATBEAsT</font></h1>
+    <p class="w3-animate-bottom">A PHATBEAST PLAYLIST PLAYER</p>
       <div class="w3-padding-32">
       <div class="w3-row w3-border">
         <div class="w3-half w3-container-fluid w3-light-gray">
@@ -99,7 +99,7 @@ HTML_PAGE = """
   <div>
     <div class="w3-card w3-container" style="min-height:250px">
       <h4>Player Controls</h4><br>
-      <i class="fa fa-desktop w3-margin-bottom w3-text-theme" style="font-size:120px"></i><br>
+      <i class="fa fa-desktop w3-margin-bottom w3-text-theme" style="font-size:60px"></i><br>
       <a class="w3-button w3-theme w3-hover-light-grey" onclick="control('prev')">⏪PREV</a>
       <a class="w3-button w3-theme w3-hover-light-grey"" onclick="control('toggle')">PLAY>⏯PAUSE</a>
       <a class="w3-button w3-theme w3-hover-light-gray"" onclick="control('next')">⏩NEXT</a>
@@ -109,7 +109,7 @@ HTML_PAGE = """
   <div>
     <div class="w3-card w3-container" style="min-height:250px">
       <h4>Volume Controls</h4><br>
-      <i class="fa fa-volume-up w3-margin-bottom w3-text-theme" style="font-size:120px"></i><br>
+      <i class="fa fa-volume-up w3-margin-bottom w3-text-theme" style="font-size:60px"></i><br>
       <a class="w3-button w3-theme w3-hover-dark-gray"" onclick="control('vol_down')">🔉 Volume -10</a>
       <a class="w3-button w3-theme w3-hover-light-gray"" onclick="control('vol_up')">🔊 Volume +10</a>
     </div>
