@@ -90,8 +90,8 @@ HTML_PAGE = """
       </div>
             
       <br>
-      <button class="w3-btn w3-large w3-light-grey w3-hover-dark-grey" onclick="loadSelection()">📂 Clear &amp; Load Playlist</button>
-      <button class="w3-btn w3-large w3-dark-grey w3-hover-light-grey" onclick="playSelection()" style="font-weight:900;">▶ PLAY SELECTION</button>
+      <button class="w3-btn w3-small w3-light-grey w3-hover-dark-grey w3-round" onclick="loadSelection()">📂 Clear &amp; Load Playlist</button>
+      <button class="w3-btn w3-small w3-dark-grey w3-hover-light-grey w3-round" onclick="playSelection()" style="font-weight:900;">▶ PLAY SELECTION</button>
     </div>
   </header>
 
@@ -100,9 +100,9 @@ HTML_PAGE = """
     <div class="w3-card w3-container" style="min-height:250px">
       <h4>Player Controls</h4><br>
       <i class="fa fa-desktop w3-margin-bottom w3-text-theme" style="font-size:60px"></i><br>
-      <a class="w3-button w3-theme w3-hover-light-grey" onclick="control('prev')">⏪PREV</a>
-      <a class="w3-button w3-theme w3-hover-light-grey"" onclick="control('toggle')">PLAY>⏯PAUSE</a>
-      <a class="w3-button w3-theme w3-hover-light-gray"" onclick="control('next')">⏩NEXT</a>
+      <a class="w3-button w3-theme w3-hover-light-grey w3-round" onclick="control('prev')">⏪PREV</a>
+      <a class="w3-button w3-theme w3-hover-light-grey w3-round" onclick="control('toggle')">PLAY>⏯PAUSE</a>
+      <a class="w3-button w3-theme w3-hover-light-gray w3-round" onclick="control('next')">⏩NEXT</a>
     </div>
   </div>
 
@@ -110,8 +110,8 @@ HTML_PAGE = """
     <div class="w3-card w3-container" style="min-height:250px">
       <h4>Volume Controls</h4><br>
       <i class="fa fa-volume-up w3-margin-bottom w3-text-theme" style="font-size:60px"></i><br>
-      <a class="w3-button w3-theme w3-hover-dark-gray"" onclick="control('vol_down')">🔉 Volume -10</a>
-      <a class="w3-button w3-theme w3-hover-light-gray"" onclick="control('vol_up')">🔊 Volume +10</a>
+      <a class="w3-button w3-theme w3-hover-dark-gray w3-round" onclick="control('vol_down')">🔉 Volume -10</a>
+      <a class="w3-button w3-theme w3-hover-light-gray w3-round" onclick="control('vol_up')">🔊 Volume +10</a>
     </div>
   </div>
 </div>
